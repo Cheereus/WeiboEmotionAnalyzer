@@ -22,6 +22,8 @@ gensim
 
 2. word2Vec 和支持向量机训练的部分主要参考 <https://m-zhoujie2.gitbooks.io/python-introductory-and-advanced-data-analysis/chapter9.html>
 
+3. 以及查找了其他关于 Python 读写 csv、xml 等内容
+
 ## 脚本文件说明
 
 ### getWords.py
