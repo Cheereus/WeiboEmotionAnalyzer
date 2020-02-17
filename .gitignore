@@ -1,3 +1,4 @@
 topic/
-test.csv
-prediction.csv
+DataSet/test.csv
+Result/prediction.csv
+tmp

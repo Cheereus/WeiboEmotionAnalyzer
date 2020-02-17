@@ -21,10 +21,10 @@ def average_vec(words):
 # 对微博正文进行情感判断
 def svm_predict():
     # 读取微博数据
-    df = pd.read_csv("DataSet/test.csv", header=0)
+    df = pd.read_csv("DataSet/ipad3.csv", header=0)
 
     comment_sentiment = []
-    for string in df['微博正文']:
+    for string in df['sentence']:
         # 对内容分词
         words = jieba.lcut(str(string))
         words_vec = average_vec(words)
@@ -43,7 +43,7 @@ def svm_predict():
     merged = pd.concat([df, pd.Series(comment_sentiment, name='用户情绪')], axis=1)
 
     # 储存文件
-    pd.DataFrame.to_csv(merged, 'Result/prediction.csv')
+    pd.DataFrame.to_csv(merged, 'Result/prediction_ipad3.csv')
     print('done.')
 
 # 执行
