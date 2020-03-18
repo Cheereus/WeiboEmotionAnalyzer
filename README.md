@@ -1,6 +1,6 @@
-# WeiboCommentsEmotionAnalyzer
+# WeiboEmotionAnalyzer
 
-微博评论爬取并进行情感分析，原创的部分不多，主要是将他人成果进行了串联，形成了完整流程，修复了一些小问题
+微博内容爬取并进行情感分析，原创的部分不多，主要是将他人成果进行了串联，形成了完整流程，修复了一些小问题
 
 环境为 Anaconda (Python 3.7.1 64-bit)
 
@@ -70,7 +70,7 @@ ipad3 训练集来自于《2012年CCF自然语言处理与中文计算会议：�
 
 <http://tcci.ccf.org.cn/conference/2012/pages/page10_dl.html>
 
-普通训练集（neg.xls & pos.xls）来自于参考内容1，该语料库整合了书籍、计算机等 7个领域的评论数据。
+普通训练集（neg.xls & pos.xls）来自于参考内容2中提及的语料库，该语料库整合了书籍、计算机等 7个领域的评论数据。
 
 ## 须知
 
